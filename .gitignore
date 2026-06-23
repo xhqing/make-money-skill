@@ -14,5 +14,4 @@ __pycache__/
 tmp/
 
 # Workspace metadata (skill tooling, not part of the make-money skill itself)
-.codebuddy/
-.sync-skill.json
+

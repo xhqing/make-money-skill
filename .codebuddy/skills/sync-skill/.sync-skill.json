@@ -1,0 +1,11 @@
+{
+  "side_a": {
+    "path": "/Users/xhq/Documents/Projects/OmniAssist/.trae/skills/make-money",
+    "branch": ""
+  },
+  "side_b": {
+    "path": "/Users/xhq/Documents/Projects/make-money-skill/make-money",
+    "branch": ""
+  },
+  "exclude": [".git", "node_modules", "__pycache__", ".DS_Store"]
+}
