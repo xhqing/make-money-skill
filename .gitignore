@@ -1,0 +1,18 @@
+# Secrets & local-only — mirrors OmniAssist .gitignore pattern.
+# These files are synced to the working tree but must NEVER be committed
+# (the make-money GitHub repo is public).
+.env
+make-money/config.json
+make-money/product/
+make-money/history/
+make-money/log/
+
+# Dependencies & artifacts
+node_modules/
+__pycache__/
+.DS_Store
+tmp/
+
+# Workspace metadata (skill tooling, not part of the make-money skill itself)
+.codebuddy/
+.sync-skill.json

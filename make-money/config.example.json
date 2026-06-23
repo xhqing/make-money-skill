@@ -1,0 +1,52 @@
+{
+  "target": {
+    "amount": 20,
+    "currency": "USD",
+    "accept_crypto": true,
+    "withdrawable_to": ["HK_bank", "CN_bank"]
+  },
+  "speed": {
+    "amount": 200,
+    "currency": "HKD",
+    "period": "hour"
+  },
+  "budget": {
+    "amount": 1.40,
+    "currency": "USD",
+    "require_roi_before_spend": true
+  },
+  "assets": {
+    "product_dir": "make-money-skill/product",
+    "history_dir": "make-money-skill/history",
+    "log_dir": "make-money-skill/log"
+  },
+  "accounts": {
+    "gumroad": {
+      "email": "",
+      "password": ""
+    },
+    "payhip": {
+      "email": "",
+      "password": ""
+    },
+    "payloadz": {
+      "email": "",
+      "password": ""
+    },
+    "twitter": {
+      "email": "",
+      "username": "",
+      "password": "",
+      "api_key": "",
+      "api_secret": "",
+      "access_token": "",
+      "access_token_secret": ""
+    }
+  },
+  "llm_api_keys": {
+    "openai": "sk-xxxxxxxx",
+    "anthropic": "sk-ant-xxxxxxxx",
+    "gemini": "AIzaSyxxxxxxxx",
+    "openrouter": "sk-or-xxxxxxxx"
+  }
+}
